@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Epic Portfolio - Skills</title>
+    
+    <!-- Tailwind CSS CDN (for quick styling) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <style>
+        .bg-gradient-custom {
+            background: linear-gradient(to bottom right, #1a1a2e, #16213e, #0f0f1a);
+        }
+        .title-gradient {
+            background: linear-gradient(to right, #06b6d4, #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .swiper-button-next, .swiper-button-prev {
+            background: rgba(0,0,0,0.6);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            backdrop-filter: blur(10px);
+        }
+        .swiper-button-next:after, .swiper-button-prev:after {
+            font-size: 24px;
+            color: #06b6d4;
+        }
+        .swiper-pagination-bullet {
+            background: rgba(255,255,255,0.4);
+        }
+        .swiper-pagination-bullet-active {
+            background: #06b6d4;
+        }
+    </style>
+</head>
+<body class="bg-gradient-custom min-h-screen text-white">
+
+    <section id="skills" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-5xl md:text-6xl font-bold text-center mb-12 tracking-wide uppercase title-gradient">
+                My Epic Skills
+            </h2>
+            <p class="text-xl text-center mb-16 max-w-3xl mx-auto opacity-80">
+                Mastering the tools and technologies that power modern digital experiences.
+            </p>
+
+            <!-- Swiper Carousel -->
+            <div class="swiper skillsCarousel max-w-7xl mx-auto">
+                <div class="swiper-wrapper">
+                    <!-- Skill 1 -->
+                    <div class="swiper-slide">
+                        <div class="skill-card bg-gray-800/60 backdrop-blur-lg rounded-2xl p-10 text-center shadow-2xl hover:shadow-cyan-500/50 transition-all duration-500 border border-gray-700 hover:border-cyan-500 hover:scale-105 h-full">
+                            <div class="icon mb-6 text-7xl">🎨</div>
+                            <h3 class="text-3xl font-semibold mb-4">Graphics Design</h3>
+                            <p class="text-gray-300">Creating stunning visuals that captivate and communicate ideas effectively.</p>
+                        </div>
+                    </div>
+
+                    <!-- Skill 2 -->
+                    <div class="swiper-slide">
+                        <div class="skill-card bg-gray-800/60 backdrop-blur-lg rounded-2xl p-10 text-center shadow-2xl hover:shadow-cyan-500/50 transition-all duration-500 border border-gray-700 hover:border-cyan-500 hover:scale-105 h-full">
+                            <div class="icon mb-6 text-7xl">💻</div>
+                            <h3 class="text-3xl font-semibold mb-4">Front-end Development</h3>
+                            <p class="text-gray-300">Building responsive, interactive UIs with modern frameworks and clean code.</p>
+                        </div>
+                    </div>
+
+                    <!-- Skill 3 -->
+                    <div class="swiper-slide">
+                        <div class="skill-card bg-gray-800/60 backdrop-blur-lg rounded-2xl p-10 text-center shadow-2xl hover:shadow-cyan-500/50 transition-all duration-500 border border-gray-700 hover:border-cyan-500 hover:scale-105 h-full">
+                            <div class="icon mb-6 text-7xl">🖥️</div>
+                            <h3 class="text-3xl font-semibold mb-4">Back-end Development</h3>
+                            <p class="text-gray-300">Crafting robust server-side logic and APIs for seamless functionality.</p>
+                        </div>
+                    </div>
+
+                    <!-- Skill 4 -->
+                    <div class="swiper-slide">
+                        <div class="skill-card bg-gray-800/60 backdrop-blur-lg rounded-2xl p-10 text-center shadow-2xl hover:shadow-cyan-500/50 transition-all duration-500 border border-gray-700 hover:border-cyan-500 hover:scale-105 h-full">
+                            <div class="icon mb-6 text-7xl">🗄️</div>
+                            <h3 class="text-3xl font-semibold mb-4">Database Management</h3>
+                            <p class="text-gray-300">Designing and optimizing databases for performance and scalability.</p>
+                        </div>
+                    </div>
+
+                    <!-- Skill 5 -->
+                    <div class="swiper-slide">
+                        <div class="skill-card bg-gray-800/60 backdrop-blur-lg rounded-2xl p-10 text-center shadow-2xl hover:shadow-cyan-500/50 transition-all duration-500 border border-gray-700 hover:border-cyan-500 hover:scale-105 h-full">
+                            <div class="icon mb-6 text-7xl">📊</div>
+                            <h3 class="text-3xl font-semibold mb-4">Project Management</h3>
+                            <p class="text-gray-300">Leading projects from concept to delivery with efficiency and precision.</p>
+                        </div>
+                    </div>
+
+                    <!-- Skill 6 -->
+                    <div class="swiper-slide">
+                        <div class="skill-card bg-gray-800/60 backdrop-blur-lg rounded-2xl p-10 text-center shadow-2xl hover:shadow-cyan-500/50 transition-all duration-500 border border-gray-700 hover:border-cyan-500 hover:scale-105 h-full">
+                            <div class="icon mb-6 text-7xl">🤝</div>
+                            <h3 class="text-3xl font-semibold mb-4">Team Collaboration</h3>
+                            <p class="text-gray-300">Thriving in team environments, sharing knowledge and driving success together.</p>
+                        </div>
+                    </div>
+
+                    <!-- Skill 7 -->
+                    <div class="swiper-slide">
+                        <div class="skill-card bg-gray-800/60 backdrop-blur-lg rounded-2xl p-10 text-center shadow-2xl hover:shadow-cyan-500/50 transition-all duration-500 border border-gray-700 hover:border-cyan-500 hover:scale-105 h-full">
+                            <div class="icon mb-6 text-7xl">🎥</div>
+                            <h3 class="text-3xl font-semibold mb-4">Video Editing</h3>
+                            <p class="text-gray-300">Producing engaging video content with professional cuts and effects.</p>
+                        </div>
+                    </div>
+
+                    <!-- Skill 8 -->
+                    <div class="swiper-slide">
+                        <div class="skill-card bg-gray-800/60 backdrop-blur-lg rounded-2xl p-10 text-center shadow-2xl hover:shadow-cyan-500/50 transition-all duration-500 border border-gray-700 hover:border-cyan-500 hover:scale-105 h-full">
+                            <div class="icon mb-6 text-7xl">🏢</div>
+                            <h3 class="text-3xl font-semibold mb-4">Office Management</h3>
+                            <p class="text-gray-300">Streamlining operations and ensuring smooth administrative workflows.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation & Pagination -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination mt-10"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <script>
+        const swiper = new Swiper('.skillsCarousel', {
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            slidesPerView: 1,
+            spaceBetween: 30,
+            centeredSlides: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                640: { slidesPerView: 2 },
+                1024: { slidesPerView: 3 },
+            },
+            effect: 'slide',
+        });
+    </script>
+</body>
+</html>

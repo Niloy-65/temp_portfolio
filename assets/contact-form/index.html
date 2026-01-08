@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Section</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/steller.css">
+    <!-- EmailJS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("kO0WH28F1FdxQXWqd"); // Replace with your EmailJS user ID
+        })();
+    </script>
+
+</head>
+
+<body>
+    <!-- Page navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="../../logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="assets/about us page/index.html" target="_blank">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="assets/Responsive Services Section/index.html"
+                            target="_blank">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="testmonialDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Catagories
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="testmonialDropdown">
+                            <a class="dropdown-item"
+                                href="https://niloy65.blogspot.com/search/label/Logo%20design?&max-results=7"
+                                target="_blank">Logo Design</a>
+                            <a class="dropdown-item"
+                                href="https://niloy65.blogspot.com/search/label/flyers%20design?&max-results=7"
+                                target="_blank">Flyer DEsign</a>
+                            <a class="dropdown-item"
+                                href="https://niloy65.blogspot.com/search/label/Business%20Card%20Design?&max-results=7"
+                                target="_blank">Business card</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="assets/contact  us page/index.html" target="_blank">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- End of page navibation -->
+
+
+    <section id="contact">
+        <div class="contact-box">
+            <div class="contact-links">
+                <h2>CONTACT</h2>
+                <div class="links">
+                    <div class="link">
+                        <a href="https://www.behance.net/niloy763">
+                            <img src="https://i.postimg.cc/Fz0qJt7n/2168249.png" alt="behance">
+                        </a>
+                    </div>
+                    <div class="link">
+                        <a href="https://x.com/AriyanNiloy65">
+                            <img src="https://i.postimg.cc/5N7WVJWf/2168336.png" alt="twitter">
+                        </a>
+                    </div>
+                    <div class="link">
+                        <a href="https://www.facebook.com/100046167670370">
+                            <img src="https://i.postimg.cc/MZf9T8BW/2168281.png" alt="facebook">
+                        </a>
+                    </div>
+                    <div class="link">
+                        <a href="https://www.instagram.com/ariyan_neloy765">
+                            <img src="https://i.postimg.cc/DzyTkz8f/1384015.png" alt="Instagram">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-wrapper">
+                <form id="contact-form">
+                    <div class="form-item">
+                        <input type="text" name="sender" required>
+                        <label>Name:</label>
+                    </div>
+                    <div class="form-item">
+                        <input type="text" name="email" required>
+                        <label>Email:</label>
+                    </div>
+                    <div class="form-item">
+                        <textarea name="message" required></textarea>
+                        <label>Message:</label>
+                    </div>
+                    <button class="submit-btn" type="submit">Send</button>  
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Handle form submission
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            // Send email using EmailJS
+            emailjs.sendForm('service_kir312w', 'template_3452', this)
+                .then(function() {
+                    alert('Message Sent Successfully!');
+                }, function(error) {
+                    alert('Failed to send the message: ' + error.text);
+                });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Nurul Alam Niloy | Creative Designer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Space+Grotesk:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Preloader (replace your existing .preloader block) -->
+<div class="preloader" id="preloader">
+  <div class="loader-logo">
+    <!-- use your logo file path here -->
+    <img src="assets/imgs/logo.png" alt="Niloy Logo" class="preloader-img">
+  </div>
+  <div class="loader-bar">
+    <div class="loader-progress"></div>
+  </div>
+</div>
+
+
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <div class="cursor"></div>
+    <div class="cursor-dot"></div>
+
+    <nav class="glass-nav-top">
+        <div class="nav-content">
+            <a href="#home" class="logo magnetic">
+                <img src="assets/imgs/logo.png" alt="Logo" class="logo-img">
+                <span></span>
+            </a>
+            
+            <div class="menu-toggle magnetic" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <div class="nav-links">
+                <a href="#home" class="magnetic nav-link">Home</a>
+                <a href="#about" class="magnetic nav-link">About</a>
+                <a href="#service" class="magnetic nav-link">Services</a>
+                <a href="#portfolio" class="magnetic nav-link">Work</a>
+                <a href="#contact" class="magnetic nav-link">Contact</a>
+            </div>
+
+            <div class="theme-switch magnetic" id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="hero-container">
+            <p class="code-greeting reveal-text">hello, I'm</p>
+            
+            <h1 class="hero-title reveal-text">
+                Md Nurul Alam <br>
+                <span class="text-gradient">Niloy.</span>
+            </h1>
+
+            <h2 class="hero-subheadline reveal-text">
+                I design & code for web.
+            </h2>
+
+            <p class="hero-bio reveal-text">
+                Web Developer with experience of Digital Concept Arts, Frontend Web Designs. 
+                I love fun Web UI, collaboration and making products. I value simple content structure, 
+                clean design patterns, and thoughtful interactions.
+            </p>
+
+            <div class="cta-group reveal-text">
+                <a href="#service" class="btn-solid magnetic">Let's Talk!</a>
+                
+                <div class="hero-socials">
+                    <a href="#" target="_blank" class="social-btn magnetic" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" target="_blank" class="social-btn magnetic" title="Behance">
+                        <i class="fab fa-behance"></i>
+                    </a>
+                    <a href="#" target="_blank" class="social-btn magnetic" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://niloy65.blogspot.com/" target="_blank" class="social-btn magnetic" title="Blogger">
+                        <i class="fab fa-blogger-b"></i>
+                    </a>
+                    <a href="#" target="_blank" class="social-btn magnetic" title="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="watermark-text">N.A Niloy</div>
+
+        <div class="container about-grid">
+            <div class="about-img-wrapper reveal-img">
+                <div class="img-frame">
+                    <img src="assets/imgs/header-bg.jpg" alt="Niloy" class="about-img" loading="lazy">
+                </div>
+                <div class="experience-badge magnetic">
+                    <span class="exp-number">04+</span>
+                    <span class="exp-text">Years of<br>Experience</span>
+                </div>
+            </div>
+
+            <div class="about-content">
+                <p class="section-tag reveal-text">// Introduction</p>
+                <h2 class="section-title reveal-text">Architect of <br><span>Digital Realities.</span></h2>
+                
+                <p class="about-bio reveal-text">
+                    I am not just a designer; I am a problem solver who uses code and pixels as tools. 
+                    My work sits at the intersection of <strong>high-end aesthetics</strong> and <strong>robust performance</strong>. 
+                </p>
+
+                <div class="stats-row reveal-text">
+                    <div class="stat-item">
+                        <h3 class="counter" data-target="50">0</h3>
+                        <p>Projects Done</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="counter" data-target="20">0</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="counter" data-target="99">0</h3>
+                        <p>Coffee Cups</p>
+                    </div>
+                </div>
+
+                <div class="btn-wrapper reveal-text">
+                    <a href="assets/cv/Md_Nurul_Alam.pdf" download class="btn-outline magnetic">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="service">
+        <div class="container">
+            <h2 class="section-title text-center reveal-text">What <span>I Do</span></h2>
+            <p class="section-subtitle text-center reveal-text">I offer a range of graphic design services including flyer design, business cards, logos, restaurant templates, and banners. Each project is crafted with attention 
+                to detail and tailored to meet your brand's needs.</p>
+            <div class="carousel-container reveal-up">
+                <div class="carousel-track">
+                    <a href="#" class="service-card"><div class="icon-box"><i class="fas fa-pencil-alt"></i></div><h3>Web Design</h3></a>
+                    <a href="https://niloy65.blogspot.com/search/label/Social%20Media?&max-results=5" class="service-card"><div class="icon-box"><i class="fas fa-file"></i></div><h3>Flyer Design</h3></a>
+                    <a href="https://niloy65.blogspot.com/search/label/Business%20Card%20Design?&max-results=7" class="service-card"><div class="icon-box"><i class="fas fa-id-card"></i></div><h3>Business Card</h3></a>
+                    <a href="#" class="service-card"><div class="icon-box"><i class="fas fa-laptop-code"></i></div><h3>Landing Page</h3></a>
+                    <a href="#" class="service-card"><div class="icon-box"><i class="fas fa-video"></i></div><h3>Video Editing</h3></a>
+                    <a href="https://niloy65.blogspot.com/search/label/Food?&max-results=5" class="service-card"><div class="icon-box"><i class="fas fa-utensils"></i></div><h3>Restaurant Template</h3></a>
+                    <a href="https://niloy65.blogspot.com/search/label/Logo%20design?&max-results=5" class="service-card"><div class="icon-box"><i class="fas fa-bold"></i></div><h3>Logo Design</h3></a>
+                    <a href="https://niloy65.blogspot.com/search?q=x+banner" class="service-card"><div class="icon-box"><i class="fas fa-bullhorn"></i></div><h3>X Banner Design</h3></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio-section">
+    <div class="container">
+        <h2 class="section-title text-center reveal-text">Latest <span>Work</span></h2>
+        <p class="section-subtitle text-center reveal-text">A selection of my recent projects across different domains.</p>
+
+        <div class="portfolio-filters reveal-up">
+            <button class="filter-btn active magnetic" data-filter="all">All</button>
+            <button class="filter-btn magnetic" data-filter="graphics">Graphics</button>
+            <button class="filter-btn magnetic" data-filter="web">Web & Software</button>
+            <button class="filter-btn magnetic" data-filter="video">Video Editing</button>
+            <button class="filter-btn magnetic" data-filter="data">Data Entry</button>
+            <button class="filter-btn magnetic" data-filter="event">Event</button>
+        </div>
+
+        <div class="portfolio-grid">
+            <div class="portfolio-item web" data-category="web">
+                <div class="portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=800&auto=format&fit=crop" alt="Project 1">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>E-Commerce Platform</h3>
+                            <span>Web & Software</span>
+                        </div>
+                        <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item graphics" data-category="graphics">
+                <div class="portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1626785774573-4b799312c95d?q=80&w=800&auto=format&fit=crop" alt="Project 2">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>Neon Brand Identity</h3>
+                            <span>Graphics Design</span>
+                        </div>
+                        <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item video" data-category="video">
+                <div class="portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1574717432707-c2571987df52?q=80&w=800&auto=format&fit=crop" alt="Project 3">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>Cinematic Vlog Edit</h3>
+                            <span>Video Editing</span>
+                        </div>
+                        <a href="#" class="portfolio-link"><i class="fas fa-play"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item data" data-category="data">
+                <div class="portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop" alt="Project 4">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>Financial Analytics</h3>
+                            <span>Data Entry & Analysis</span>
+                        </div>
+                        <a href="#" class="portfolio-link"><i class="fas fa-table"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item event" data-category="event">
+                <div class="portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?q=80&w=800&auto=format&fit=crop" alt="Project 5">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>Tech Summit 2024</h3>
+                            <span>Event Management</span>
+                        </div>
+                        <a href="#" class="portfolio-link"><i class="fas fa-calendar-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item web" data-category="web">
+                <div class="portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop" alt="Project 6">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>SaaS Dashboard</h3>
+                            <span>Web & Software</span>
+                        </div>
+                        <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--------------MarketPalace Section-------------->
+
+
+<section class="marketplace-section" id="marketplaces">
+    <div class="container">
+        <div class="section-header">
+            <p class="section-tag">GLOBAL DISTRIBUTION</p>
+            <h2 class="section-title">Marketplace <span>Portfolios</span></h2>
+        </div>
+
+        <div class="marketplace-grid">
+            
+            <a href="#" class="market-card shutter">
+                <div class="market-status">
+                    <span class="pulse-dot"></span> Active Feed
+                </div>
+                <div class="market-icon">
+                    <i class="fa-solid fa-camera-retro"></i>
+                </div>
+                <div class="market-info">
+                    <h3>Shutterstock</h3>
+                    <p>Vector & Photo Contributor</p>
+                    <span class="view-profile">Access Gallery <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+                <div class="card-glow"></div>
+            </a>
+
+            <a href="#" class="market-card adobe">
+                <div class="market-status">
+                    <span class="pulse-dot"></span> Verified
+                </div>
+                <div class="market-icon">
+                    <i class="fa-brands fa-adobe"></i>
+                </div>
+                <div class="market-info">
+                    <h3>Adobe Stock</h3>
+                    <p>Vector & Illustration Designer</p>
+                    <span class="view-profile">Access Gallery <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+                <div class="card-glow"></div>
+            </a>
+
+            <a href="#" class="market-card vecteezy">
+                <div class="market-status">
+                    <span class="pulse-dot"></span> Top Contributor
+                </div>
+                <div class="market-icon">
+                    <i class="fa-solid fa-bezier-curve"></i>
+                </div>
+                <div class="market-info">
+                    <h3>Vecteezy</h3>
+                    <p>Free & Pro Vector Artist</p>
+                    <span class="view-profile">Access Gallery <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+                <div class="card-glow"></div>
+            </a>
+
+            <a href="#" class="market-card pexels">
+                <div class="market-status">
+                    <span class="pulse-dot"></span> High Traffic
+                </div>
+                <div class="market-icon">
+                    <i class="fa-solid fa-image"></i>
+                </div>
+                <div class="market-info">
+                    <h3>Pexels</h3>
+                    <p>Stock Photography</p>
+                    <span class="view-profile">Access Gallery <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+                <div class="card-glow"></div>
+            </a>
+
+            <a href="#" class="market-card fiverr special-fiverr">
+                <div class="market-status">
+                    <span class="pulse-dot" style="background: #1dbf73;"></span> Available for Hire
+                </div>
+                <div class="market-icon">
+                    <i class="fa-solid fa-handshake-simple"></i>
+                </div>
+                <div class="market-info">
+                    <h3>Fiverr</h3>
+                    <p>Custom Projects & Gigs</p>
+                    <span class="view-profile">Hire Me Now <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+                <div class="card-glow"></div>
+            </a>
+
+            <a href="#" class="market-card pngtree">
+                <div class="market-status">
+                    <span class="pulse-dot"></span> Gold Designer
+                </div>
+                <div class="market-icon">
+                    <i class="fa-solid fa-file-image"></i>
+                </div>
+                <div class="market-info">
+                    <h3>Pngtree</h3>
+                    <p>Vector, PNG & Template</p>
+                    <span class="view-profile">Access Gallery <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+                <div class="card-glow"></div>
+            </a>
+
+        </div>
+    </div>
+</section>
+<!-------------- end of MarketPalace Section-------------->
+    
+
+
+
+<!--------------Skills Section-------------->
+
+    <section id="skills" class="skills-section">
+    <div class="container">
+        <p class="section-tag">MY ARSENAL</p>
+        <h2 class="section-title">Professional <span>Skills</span></h2>
+
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fa-solid fa-pen-nib"></i>
+                </div>
+                <div class="skill-content">
+                    <h3>Graphics Design</h3>
+                    <p>Visual storytelling & branding</p>
+                    <div class="skill-tags">
+                        <span>Figma</span>
+                        <span>Photoshop</span>
+                        <span>Illustrator</span>
+                    </div>
+                </div>
+                <div class="skill-progress-bar"><div class="progress" style="width: 90%"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="skill-content">
+                    <h3>Front-end Dev</h3>
+                    <p>Responsive & interactive UI</p>
+                    <div class="skill-tags">
+                        <span>HTML/CSS</span>
+                        <span>React</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-progress-bar"><div class="progress" style="width: 95%"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fa-solid fa-server"></i>
+                </div>
+                <div class="skill-content">
+                    <h3>Back-end Dev</h3>
+                    <p>Server-side logic & APIs</p>
+                    <div class="skill-tags">
+                        <span>Node.js</span>
+                        <span>Python</span>
+                        <span>API</span>
+                    </div>
+                </div>
+                <div class="skill-progress-bar"><div class="progress" style="width: 85%"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+                <div class="skill-content">
+                    <h3>Database Mgmt</h3>
+                    <p>Data structuring & security</p>
+                    <div class="skill-tags">
+                        <span>MongoDB</span>
+                        <span>MySQL</span>
+                        <span>Firebase</span>
+                    </div>
+                </div>
+                <div class="skill-progress-bar"><div class="progress" style="width: 80%"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fa-solid fa-list-check"></i>
+                </div>
+                <div class="skill-content">
+                    <h3>Project Mgmt</h3>
+                    <p>Agile workflows & planning</p>
+                    <div class="skill-tags">
+                        <span>Jira</span>
+                        <span>Trello</span>
+                        <span>Agile</span>
+                    </div>
+                </div>
+                <div class="skill-progress-bar"><div class="progress" style="width: 90%"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fa-solid fa-users-gear"></i>
+                </div>
+                <div class="skill-content">
+                    <h3>Team Collaboration</h3>
+                    <p>Communication & leadership</p>
+                    <div class="skill-tags">
+                        <span>Slack</span>
+                        <span>Zoom</span>
+                        <span>Git</span>
+                    </div>
+                </div>
+                <div class="skill-progress-bar"><div class="progress" style="width: 98%"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fa-solid fa-film"></i>
+                </div>
+                <div class="skill-content">
+                    <h3>Video Editing</h3>
+                    <p>Post-production & effects</p>
+                    <div class="skill-tags">
+                        <span>Premiere Pro</span>
+                        <span>After Effects</span>
+                    </div>
+                </div>
+                <div class="skill-progress-bar"><div class="progress" style="width: 75%"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <div class="skill-content">
+                    <h3>Office Mgmt</h3>
+                    <p>Organization & documentation</p>
+                    <div class="skill-tags">
+                        <span>MS Office</span>
+                        <span>Notion</span>
+                        <span>Excel</span>
+                    </div>
+                </div>
+                <div class="skill-progress-bar"><div class="progress" style="width: 92%"></div></div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<section class="cert-section" id="certificates">
+  <div class="container">
+    <div class="section-title">
+      <p class="section-tag">Credentials</p>
+      <h2>My <span>Certifications</span></h2>
+    </div>
+
+    <div class="swiper cert-swiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="cert-card">
+            <div class="cert-img-container">
+              <img src="assets/imgs/google.jpg" alt="Google Ads" class="cert-img">
+            </div>
+            <div class="cert-content">
+              <div class="cert-header">
+                <span class="cert-issuer">Google</span>
+                <div class="cert-badge">Verified</div>
+              </div>
+              <h3>Google Ads Display</h3>
+              <p class="cert-date">Issued: Dec 2024</p>
+              <a href="#" class="cert-link">View Credential</a>
+            </div>
+            <div class="cert-glow"></div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="cert-card">
+            <div class="cert-img-container">
+              <img src="assets/imgs/GRAPHICS-DESIGN-CERTIFICATE-min.jpg" alt="ICT Authority" class="cert-img">
+            </div>
+            <div class="cert-content">
+              <div class="cert-header">
+                <span class="cert-issuer">Hi-Tech Park</span>
+                <div class="cert-badge">Verified</div>
+              </div>
+              <h3>Graphics Design</h3>
+              <p class="cert-date">Issued: Nov 2024</p>
+              <a href="#" class="cert-link">View Credential</a>
+            </div>
+            <div class="cert-glow"></div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="cert-card">
+            <div class="cert-img-container">
+              <img src="assets/imgs/diplloma_certificate.jpg" alt="BTEB Diploma" class="cert-img">
+            </div>
+            <div class="cert-content">
+              <div class="cert-header">
+                <span class="cert-issuer">BTEB</span>
+                <div class="cert-badge">Verified</div>
+              </div>
+              <h3>Diploma in Engineering</h3>
+              <p class="cert-date">Issued: Oct 2024</p>
+              <a href="#" class="cert-link">View Credential</a>
+            </div>
+            <div class="cert-glow"></div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="cert-card">
+            <div class="cert-img-container">
+              <img src="assets/imgs/database-certificate-min.jpg" alt="Udemy" class="cert-img">
+            </div>
+            <div class="cert-content">
+              <div class="cert-header">
+                <span class="cert-issuer">Udemy</span>
+                <div class="cert-badge">Verified</div>
+              </div>
+              <h3>Full Stack Web Dev</h3>
+              <p class="cert-date">Issued: Sep 2024</p>
+              <a href="#" class="cert-link">View Credential</a>
+            </div>
+            <div class="cert-glow"></div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="cert-card">
+            <div class="cert-img-container">
+              <img src="assets/imgs/video_editing-min.jpg" alt="HubSpot" class="cert-img">
+            </div>
+            <div class="cert-content">
+              <div class="cert-header">
+                <span class="cert-issuer">HubSpot</span>
+                <div class="cert-badge">Verified</div>
+              </div>
+              <h3>SEO Optimization</h3>
+              <p class="cert-date">Issued: Aug 2024</p>
+              <a href="#" class="cert-link">View Credential</a>
+            </div>
+            <div class="cert-glow"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+</section>
+
+<!------------Blog Section-------------->
+<section id="blog" class="blog-section">
+    <div class="container">
+        <div class="section-header" style="text-align: center; margin-bottom: 60px;">
+            <p class="section-tag">MY PORTFOLIO</p>
+            <h2 class="section-title">Research & <span class="highlight">Media</span></h2>
+        </div>
+
+        <div class="blog-grid">
+
+            <article class="blog-card featured">
+                <div class="blog-img-box pdf-preview-box">
+                    <span class="blog-category">Cyber Security</span>
+                    
+                    <iframe 
+                        src="assets/imgs/Cyber-Security-And-Ethics-Latest-Trend.pdf" 
+                        class="pdf-thumbnail">
+                    </iframe>
+                    
+                    <div class="click-overlay" onclick="openPdfModal()"></div>
+                </div>
+                <div class="blog-info">
+                    <div class="blog-meta">
+                        <span>Research Paper</span>
+                        <span class="dot"></span>
+                        <span>PDF Document</span>
+                    </div>
+                    <h3>Vulnerability Assessment & Network Defense</h3>
+                    <p>My latest research paper exploring modern cyber threats. Click to read the full document in the previewer.</p>
+                    
+                    <button onclick="openPdfModal()" class="blog-btn-link" style="background:none; border:none; cursor:pointer; padding:0; color:inherit;">
+                        View Full Paper <i class="fa-solid fa-expand"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="blog-card">
+                <div class="blog-img-box video-wrapper">
+                    <span class="blog-category">Video</span>
+                    <iframe 
+                        src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="blog-info">
+                    <div class="blog-meta"><span>YouTube</span></div>
+                    <h3>Latest Tech Breakdown</h3>
+                    <a href="#" class="blog-btn-link">Watch Channel <i class="fa-solid fa-play"></i></a>
+                </div>
+            </article>
+
+            <article class="blog-card">
+                <div class="blog-img-box">
+                    <span class="blog-category">Blog</span>
+                    <img src="https://images.unsplash.com/photo-1499750310159-5418f31b1e56?q=80&w=2070&auto=format&fit=crop" alt="Blogger Profile">
+                </div>
+                <div class="blog-info">
+                    <div class="blog-meta"><span>Google Blogger</span></div>
+                    <h3>Insights & Daily Updates</h3>
+                    <a href="#" class="blog-btn-link">Visit Profile <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+            </article>
+            
+        </div>
+    </div>
+</section>
+
+<div id="pdfModal" class="modal-overlay">
+    <div class="modal-content">
+        <span class="close-modal" onclick="closePdfModal()">&times;</span>
+        <div class="pdf-container">
+            <iframe id="pdfFrame" src="" title="Research PDF Viewer"></iframe>
+        </div>
+        <div class="modal-footer">
+            <p>Having trouble? <a href="assets/imgs/Cyber-Security-And-Ethics-Latest-Trend.pdf" target="_blank">Download PDF</a></p>
+        </div>
+    </div>
+</div>
+
+<!----------------Work Experience Section----------------->
+
+<section class="experience-section">
+  <div class="timeline">
+    <div class="timeline-line"></div>
+
+    <!-- RIGHT ITEM -->
+    <div class="timeline-item right">
+
+      <div class="timeline-dot"></div>
+
+      <!-- BACKGROUND LOGO (LEFT EMPTY AREA) -->
+      <div class="timeline-bg-logo">
+        <img src="assets/imgs/DIIT-LOGO.png" alt="DIIT Logo">
+      </div>
+
+      <div class="timeline-content">
+        <div class="exp-header">
+          <div class="exp-role">
+            <h3>IT Assistant</h3>
+            <span class="company">DIIT (Daffodil Institute)</span>
+          </div>
+          <div class="exp-date">2023 - Present</div>
+        </div>
+
+        <p class="exp-desc">
+          Managing digital infrastructure and providing high-level technical support.
+        </p>
+
+        <ul class="exp-list">
+          <li><i class="fa-solid fa-server"></i> Network administration & troubleshooting</li>
+          <li><i class="fa-solid fa-microchip"></i> Hardware maintenance & lab optimization</li>
+          <li><i class="fa-solid fa-shield-halved"></i> Implementing security protocols</li>
+        </ul>
+
+        <a href="#" class="exp-link-btn">
+          <span>View System Logs</span>
+          <i class="fa-solid fa-arrow-right-long"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- LEFT ITEM -->
+    <div class="timeline-item left">
+
+      <div class="timeline-dot"></div>
+
+      <!-- BACKGROUND LOGO (RIGHT EMPTY AREA) -->
+      <div class="timeline-bg-logo left-logo">
+        <img src="assets/imgs/safeer-loggo.png" alt="Safeer Academy Logo">
+      </div>
+
+      <div class="timeline-content">
+        <div class="exp-header">
+          <div class="exp-role">
+            <h3>IT Support Specialist</h3>
+            <span class="company">Safeer Academy</span>
+          </div>
+          <div class="exp-date">2022 - 2023</div>
+        </div>
+
+        <p class="exp-desc">
+          Ensured seamless educational operations through robust IT solutions.
+        </p>
+
+        <ul class="exp-list">
+          <li><i class="fa-solid fa-wifi"></i> Managing campus-wide connectivity</li>
+          <li><i class="fa-solid fa-users-gear"></i> End-user support for faculty & students</li>
+          <li><i class="fa-solid fa-database"></i> Database management & system updates</li>
+        </ul>
+
+        <a href="#" class="exp-link-btn">
+          <span>Access Project Files</span>
+          <i class="fa-solid fa-folder-open"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-----------Contact Section--------------->
+
+<section id="contact" class="contact-section">
+    <div class="glow-container">
+        <div class="glow-blob blob-1"></div>
+        <div class="glow-blob blob-2"></div>
+    </div>
+
+    <div class="container">
+        <div class="contact-card">
+            
+            <div class="contact-info">
+                <h2 class="section-title">Let's work <span class="highlight">together.</span></h2>
+                <p class="section-desc">
+                    Have a project in mind? Looking for a partner? 
+                    Drop me a line and let's create something epic.
+                </p>
+                
+                <div class="contact-details">
+                    <div class="detail-item">
+                        <span class="icon">✉️</span>
+                        <a href="mailto:hello@example.com">hello@example.com</a>
+                    </div>
+                    <div class="detail-item">
+                        <span class="icon">📍</span>
+                        <span>New York, NY</span>
+                    </div>
+                </div>
+
+                <div class="hero-socials">
+                    <a href="#" target="_blank" class="social-btn magnetic" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" target="_blank" class="social-btn magnetic" title="Behance">
+                        <i class="fab fa-behance"></i>
+                    </a>
+                    <a href="#" target="_blank" class="social-btn magnetic" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://niloy65.blogspot.com/" target="_blank" class="social-btn magnetic" title="Blogger">
+                        <i class="fab fa-blogger-b"></i>
+                    </a>
+                    <a href="#" target="_blank" class="social-btn magnetic" title="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="john@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        Send Message <span class="arrow">→</span>
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
